@@ -1,0 +1,43 @@
+@layer theme {
+  :root {
+    --primary: hsl(0, 0%, 7%);
+    --secondary: hsl(283, 10%, 50%);
+    --tertiary: hsl(257, 20%, 90%);
+    --light: hsl(0, 0%, 98%);
+    --accent: hsl(53, 100%, 50%);
+    --tb303-gray: #c0c0c0;
+    --accent-gray: #a9a9a9;
+    --table-text-gray: hsl(0, 0%, 50%);
+    
+    --nav-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+      Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    --text-color-primary: var(--primary);
+    --text-color-secondary: var(--secondary);
+    --text-color-accent: var(--accent);
+
+    --bg-primary: var(--light);
+    --bg-secondary: var(--tertiary);
+    --bg-accent: var(--accent);
+
+    --transition: background-color 90ms ease-in-out;
+
+    --select-border: #777;
+    --select-focus: blue;
+    --select-arrow: var(--select-border);
+  }
+
+  html {
+    color-scheme: light;
+    accent-color: var(--accent-ui);
+  }
+
+  body {
+    font-family: var(--font-family);
+    color: var(--text-color-primary);
+    background-color: var(--bg-primary);
+    margin: 0;
+    padding: 0;
+  }
+}
