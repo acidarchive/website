@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Navigation } from './navigation';
+import { Header } from './header';
 
 const meta = {
-  title: 'Site/Navigation',
-  component: Navigation,
+  title: 'Organisms/Header',
+  component: Header,
   tags: ['autodocs'],
-} satisfies Meta<typeof Navigation>;
+} satisfies Meta<typeof Header>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

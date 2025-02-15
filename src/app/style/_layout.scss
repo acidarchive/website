@@ -10,7 +10,10 @@
     --layout-grid-gap: 3vw;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--layout-grid-min)), 1fr));
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(100%, var(--layout-grid-min)), 1fr)
+    );
     gap: var(--layout-grid-gap);
   }
 
@@ -26,6 +29,7 @@
       flex: 1 1 var(--flex-grid-min);
     }
   }
+
   :is(.layout-grid, .flex-layout-grid) > * {
     container: var(--grid-item-container, grid-item) / inline-size;
   }

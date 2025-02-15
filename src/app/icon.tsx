@@ -1,5 +1,6 @@
 import { ImageResponse } from 'next/og';
-import { Smiley } from '@/app/components/icons';
+
+import { Smiley } from '@/app/components/atoms/smiley';
 
 export const size = {
   width: 32,
