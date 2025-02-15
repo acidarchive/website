@@ -1,6 +1,8 @@
+import '@/app/styles/index.scss';
+
 import type { Metadata } from 'next';
-import { Navigation } from '@/app/components/navigation';
-import './style/index.scss';
+
+import { MainLayout } from '@/app/components/layouts/main-layout';
 
 export const metadata: Metadata = {
   title: 'Acid Archive',
@@ -15,8 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navigation />
-        <div className="content-container">{children}</div>
+        <MainLayout>{children}</MainLayout>
       </body>
     </html>
   );

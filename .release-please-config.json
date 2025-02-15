@@ -1,0 +1,12 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "node",
+      "prerelease": true,
+      "changelogPath": "CHANGELOG.md",
+      "includeComponentInTag": false,
+      "versioning-strategy": "prerelease"
+    }
+  }
+}
+
