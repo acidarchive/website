@@ -6,6 +6,6 @@ describe('HomePage', () => {
   it('displays correct welcome message', () => {
     render(<HomePage />);
 
-    expect(screen.getByText('Patterns are coming soon...')).toBeInTheDocument();
+    expect(screen.getByText('303030303')).toBeInTheDocument();
   });
 });
