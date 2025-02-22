@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/acidarchive/website/compare/v1.0.0...v1.0.1) (2025-02-22)
+
+
+### Bug Fixes
+
+* use github bot for releases ([73e7d32](https://github.com/acidarchive/website/commit/73e7d32c481ab016657981850b6537d51cefc964))
+
 ## 1.0.0 (2025-02-22)
 
 
