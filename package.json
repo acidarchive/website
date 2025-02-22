@@ -13,7 +13,8 @@
     "stylelint:fix": "stylelint '**/*.{css,scss}' --fix",
     "format": "prettier --write .",
     "storybook": "storybook dev -p 6006",
-    "build:storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic"
   },
   "dependencies": {
     "eslint-plugin-import": "^2.31.0",
@@ -43,6 +44,7 @@
     "@typescript-eslint/eslint-plugin": "^8.24.0",
     "@typescript-eslint/parser": "^8.24.0",
     "@vitejs/plugin-react": "^4.3.4",
+    "chromatic": "^11.25.2",
     "clsx": "^2.1.1",
     "eslint": "^9.20.1",
     "eslint-config-next": "15.0.3",
