@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/acidarchive/website/compare/v1.0.2...v1.0.3) (2025-02-23)
+
+
+### Bug Fixes
+
+* add bot creds ([3bac4c1](https://github.com/acidarchive/website/commit/3bac4c191d1f969e88d7bbc14f7c8c1fa040a0ae))
+
 ## [1.0.2](https://github.com/acidarchive/website/compare/v1.0.1...v1.0.2) (2025-02-23)
 
 
