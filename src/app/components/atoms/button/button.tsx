@@ -13,7 +13,7 @@ export const Button: React.FC<ButtonProps> = ({ children, href }) => {
       rel="noopener noreferrer"
       className={styles.button}
     >
-      {children}A
+      {children}
     </a>
   );
 };
