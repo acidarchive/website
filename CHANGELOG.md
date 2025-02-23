@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1-alpha.0](https://github.com/acidarchive/website/compare/acidarchive-frontend-v0.2.0-alpha.0...acidarchive-frontend-v0.2.1-alpha.0) (2025-02-23)
+
+
+### Bug Fixes
+
+* release config ([39b4970](https://github.com/acidarchive/website/commit/39b4970a576877816efc53cf3e5782631985fdc8))
+
 ## [0.2.0-alpha.0](https://github.com/acidarchive/website/compare/acidarchive-frontend-v0.1.0-alpha.0...acidarchive-frontend-v0.2.0-alpha.0) (2025-02-23)
 
 
