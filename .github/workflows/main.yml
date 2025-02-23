@@ -6,8 +6,16 @@ on:
       - main
 
 jobs:
+  precheck:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          if [ "${{ github.actor }}" == "release-please[bot]" ]; then
+            echo "Skipping CI for release-please PR."
+            exit 0
+          fi
   lint:
-    if: github.actor != 'github-actions'
+    needs: precheck
     name: Lint
     runs-on: ubuntu-latest
     steps:
