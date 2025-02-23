@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          if [ "${{ github.actor }}" == "github-actions" ]; then
+          if [ "${{ github.actor }}" == "github-actions[bot]" ]; then
             echo "Skipping CI for release-please PR."
             exit 0
           fi
