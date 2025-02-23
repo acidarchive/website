@@ -4,7 +4,8 @@
       "release-type": "node",
       "prerelease": true,
       "changelogPath": "CHANGELOG.md",
-      "includeComponentInTag": false
+      "includeComponentInTag": false,
+      "versioning-strategy": "prerelease"
     }
   }
 }
