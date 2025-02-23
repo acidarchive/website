@@ -17,6 +17,7 @@ jobs:
             echo "Skipping CI for release-please PR."
             exit 0
           fi
+          echo ${{ github.actor }}
   lint:
     needs: precheck
     name: Lint
