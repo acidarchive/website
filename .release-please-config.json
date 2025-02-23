@@ -4,10 +4,7 @@
       "release-type": "node",
       "prerelease": true,
       "changelogPath": "CHANGELOG.md",
-      "commitAuthor": {
-        "name": "github-actions[bot]",
-        "email": "github-actions[bot]@users.noreply.github.com"
-      }
+      "includeComponentInTag": false
     }
   }
 }
