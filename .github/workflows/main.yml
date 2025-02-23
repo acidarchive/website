@@ -7,6 +7,7 @@ on:
 
 jobs:
   lint:
+    if: github.actor != 'github-actions'
     name: Lint
     runs-on: ubuntu-latest
     steps:
@@ -38,6 +39,7 @@ jobs:
         uses: opensource-nepal/commitlint@v1
 
   test:
+    if: github.actor != 'github-actions'
     name: Test
     needs: lint
     runs-on: ubuntu-latest
@@ -64,6 +66,7 @@ jobs:
         run: pnpm test
 
   chromatic:
+    if: github.actor != 'github-actions'
     name: Chromatic
     needs: test
     runs-on: ubuntu-latest
