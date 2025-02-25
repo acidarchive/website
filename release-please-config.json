@@ -11,7 +11,6 @@
       "prerelease": true,
       "versioning-strategy": "prerelease",
       "include-v-in-tag": true,
-      "release-as": "0.0.1-alpha.0",
       "extra-files": ["package.json"]
     }
   }
