@@ -11,6 +11,7 @@
       "prerelease": true,
       "versioning-strategy": "prerelease",
       "include-v-in-tag": true,
+      "include-component-in-tag": false,
       "extra-files": ["package.json"]
     }
   }
