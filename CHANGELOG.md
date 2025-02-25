@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.1-alpha.0](https://github.com/acidarchive/website/compare/acidarchive-frontend-v1.0.0...acidarchive-frontend-v0.0.1-alpha.0) (2025-02-25)
+
+
+### Bug Fixes
+
+* enable prerelease ([06a19d6](https://github.com/acidarchive/website/commit/06a19d6733961d48d74d592a46845b6b88df4940))
+* enable prerelease ([9dc232c](https://github.com/acidarchive/website/commit/9dc232c4b2a46208f3045ef7fba29a386aa34d28))
+
 ## 1.0.0 (2025-02-25)
 
 
