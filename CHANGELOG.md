@@ -3,6 +3,15 @@
 
 ### 🔧 Fixed
 
+- Release on code push to main
+
+- Remove unnecessary step
+
+
+## [0.0.1-alpha.12] - 2025-02-27
+
+### 🔧 Fixed
+
 - Testing pnpm cache
 
 
@@ -91,7 +100,8 @@
 - Init
 
 
-[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.11..HEAD
+[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.12..HEAD
+[0.0.1-alpha.12]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.11..v0.0.1-alpha.12
 [0.0.1-alpha.11]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.10..v0.0.1-alpha.11
 [0.0.1-alpha.10]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.9..v0.0.1-alpha.10
 [0.0.1-alpha.8]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.7..v0.0.1-alpha.8
