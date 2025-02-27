@@ -9,24 +9,26 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup nodejs
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: false
+
+      - name: Install node
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
+          cache: 'pnpm'
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
-          run_install: |
-            - recursive: true
-              args: [--frozen-lockfile, --strict-peer-dependencies]
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Fetch all tags
         run: git fetch --tags
@@ -45,7 +47,7 @@ jobs:
           echo "Generating changelog for $LATEST_TAG"
           pnpm exec git-cliff --config cliff.toml -o CHANGELOG.md
 
-      - name: Commit version bump
+      - name: Commit version bump and changelog
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
