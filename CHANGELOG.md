@@ -1,6 +1,13 @@
 # 🎛️ Acid Archive Changelog
 ## [Latest]
 
+### ⚙️ Miscellaneous
+
+- Remove unused files
+
+
+## [0.0.1-alpha.18] - 2025-02-27
+
 ### 🔧 Fixed
 
 - Correct button
@@ -140,7 +147,8 @@
 - Init
 
 
-[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.17..HEAD
+[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.18..HEAD
+[0.0.1-alpha.18]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.17..v0.0.1-alpha.18
 [0.0.1-alpha.17]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.16..v0.0.1-alpha.17
 [0.0.1-alpha.16]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.15..v0.0.1-alpha.16
 [0.0.1-alpha.15]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.14..v0.0.1-alpha.15
