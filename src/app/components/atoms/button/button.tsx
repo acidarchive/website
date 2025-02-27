@@ -14,6 +14,7 @@ export const Button: React.FC<ButtonProps> = ({ children, href }) => {
       className={styles.button}
     >
       {children}
+      destroy button
     </a>
   );
 };
