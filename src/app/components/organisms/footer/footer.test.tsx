@@ -6,10 +6,10 @@ describe('Footer', () => {
   it('contains a contact email link', () => {
     render(<Footer />);
 
-    const link = screen.getByRole('link', { name: /dev@acidarchive.com/i });
+    const link = screen.getByRole('link', { name: /info@acidarchive.com/i });
 
     expect(link).toBeInTheDocument();
-    expect(link).toHaveAttribute('href', 'mailto:dev@acidarchive.com');
+    expect(link).toHaveAttribute('href', 'mailto:info@acidarchive.com');
   });
 
   it('displays the correct copyright year', () => {

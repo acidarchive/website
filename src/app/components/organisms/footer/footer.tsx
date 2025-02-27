@@ -5,7 +5,7 @@ export const Footer: React.FC = () => {
     <footer className={styles.footer}>
       <p>
         &copy; {new Date().getFullYear()} Acid Archive |{' '}
-        <a href="mailto:dev@acidarchive.com">dev@acidarchive.com</a>
+        <a href="mailto:info@acidarchive.com">info@acidarchive.com</a>
       </p>
     </footer>
   );
