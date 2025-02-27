@@ -14,8 +14,7 @@
     "format": "prettier --write .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic",
-    "changelog": "npx git-cliff --config cliff.toml -o CHANGELOG.md"
+    "chromatic": "npx chromatic"
   },
   "dependencies": {
     "eslint-plugin-import": "^2.31.0",

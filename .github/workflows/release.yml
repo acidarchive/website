@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Fetch all tags
+        run: git fetch --tags
+
       - name: Determine new version
         id: version
         run: |
@@ -36,20 +39,23 @@ jobs:
           echo "New version: $NEW_VERSION"
           echo "VERSION=$NEW_VERSION" >> $GITHUB_ENV
 
-      - name: Fetch all tags
-        run: git fetch --tags
-
       - name: Generate changelog
         run: |
           LATEST_TAG=$(git describe --tags --abbrev=0)
           echo "Generating changelog for $LATEST_TAG"
-          pnpm exec git-cliff --config cliff.toml -o CHANGELOG.md --latest
+          pnpm exec git-cliff --config cliff.toml -o CHANGELOG.md
 
-      - name: Commit version bump
+      - name: Commit version bump and changelog
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add CHANGELOG.md package.json pnpm-lock.yaml
+          git add package.json pnpm-lock.yaml CHANGELOG.md
           git commit -m "build: release $VERSION"
+
+      - name: Create tag and push
+        run: |
           git tag -a "$VERSION" -m "release $VERSION"
           git push origin main --tags
+
+      - name: Push changes
+        run: git push origin main
