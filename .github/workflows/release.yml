@@ -1,7 +1,14 @@
 name: release
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - 'CHANGELOG.md'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
 
 permissions:
   contents: write
@@ -16,10 +23,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      # - uses: pnpm/action-setup@v4
-      #   with:
-      #     version: 10
-      #     run_install: false
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: false
 
       - name: Install node
         uses: actions/setup-node@v4
