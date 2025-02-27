@@ -24,9 +24,9 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 10
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+          run_install: |
+            - recursive: true
+              args: [--frozen-lockfile, --strict-peer-dependencies]
 
       - name: Fetch all tags
         run: git fetch --tags
