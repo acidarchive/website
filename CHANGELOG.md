@@ -1,5 +1,12 @@
 # 🎛️ Acid Archive Changelog
-## [Unreleased]
+## [Latest]
+
+### 🔧 Fixed
+
+- Edit cliff template
+
+
+## [0.0.1-alpha.6] - 2025-02-27
 
 ### 🔧 Fixed
 
@@ -56,7 +63,8 @@
 - Init
 
 
-[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.5..HEAD
+[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.6..HEAD
+[0.0.1-alpha.6]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.5..v0.0.1-alpha.6
 [0.0.1-alpha.5]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.4..v0.0.1-alpha.5
 [0.0.1-alpha.4]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.3..v0.0.1-alpha.4
 [0.0.1-alpha.3]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.2..v0.0.1-alpha.3
