@@ -1,6 +1,13 @@
 # 🎛️ Acid Archive Changelog
 ## [Unreleased]
 
+### 🔧 Fixed
+
+- Fixing broken button
+
+
+## [0.0.1-alpha.3] - 2025-02-27
+
 ### 🌀 Added
 
 - Breaking button again
@@ -35,7 +42,8 @@
 - Init
 
 
-[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.2..HEAD
+[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.3..HEAD
+[0.0.1-alpha.3]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.2..v0.0.1-alpha.3
 [0.0.1-alpha.2]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.1..v0.0.1-alpha.2
 [0.0.1-alpha.1]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.0..v0.0.1-alpha.1
 
