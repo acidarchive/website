@@ -3,6 +3,13 @@
 
 ### 🔧 Fixed
 
+- Correct button
+
+
+## [0.0.1-alpha.13] - 2025-02-27
+
+### 🔧 Fixed
+
 - Release on code push to main
 
 - Remove unnecessary step
@@ -100,7 +107,8 @@
 - Init
 
 
-[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.12..HEAD
+[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.13..HEAD
+[0.0.1-alpha.13]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.12..v0.0.1-alpha.13
 [0.0.1-alpha.12]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.11..v0.0.1-alpha.12
 [0.0.1-alpha.11]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.10..v0.0.1-alpha.11
 [0.0.1-alpha.10]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.9..v0.0.1-alpha.10
