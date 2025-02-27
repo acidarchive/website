@@ -3,6 +3,13 @@
 
 ### 🔧 Fixed
 
+- Testing pnpm cache
+
+
+## [0.0.1-alpha.11] - 2025-02-27
+
+### 🔧 Fixed
+
 - Cache pnpm
 
 
@@ -84,7 +91,8 @@
 - Init
 
 
-[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.10..HEAD
+[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.11..HEAD
+[0.0.1-alpha.11]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.10..v0.0.1-alpha.11
 [0.0.1-alpha.10]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.9..v0.0.1-alpha.10
 [0.0.1-alpha.8]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.7..v0.0.1-alpha.8
 [0.0.1-alpha.7]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.6..v0.0.1-alpha.7
