@@ -62,3 +62,8 @@ jobs:
           git commit -m "build: release $VERSION"
           git tag -a "$VERSION" -m "release $VERSION"
           git push origin main --tags
+
+      - name: Update snapshots
+        uses: chromaui/action@latest
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
