@@ -1,6 +1,13 @@
 # 🎛️ Acid Archive Changelog
 ## [Latest]
 
+### 🔧 Fixed
+
+- Cache pnpm
+
+
+## [0.0.1-alpha.10] - 2025-02-27
+
 ### ⚙️ Miscellaneous
 
 - Refactor release.yml
@@ -77,7 +84,8 @@
 - Init
 
 
-[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.9..HEAD
+[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.10..HEAD
+[0.0.1-alpha.10]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.9..v0.0.1-alpha.10
 [0.0.1-alpha.8]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.7..v0.0.1-alpha.8
 [0.0.1-alpha.7]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.6..v0.0.1-alpha.7
 [0.0.1-alpha.6]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.5..v0.0.1-alpha.6
