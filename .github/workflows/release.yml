@@ -41,7 +41,9 @@ jobs:
 
       - name: Generate changelog
         run: |
-          pnpm changelog
+          LATEST_TAG=$(git describe --tags --abbrev=0)
+          echo "Generating changelog for $LATEST_TAG"
+          pnpm exec git-cliff --config cliff.toml -o CHANGELOG.md --latest
 
       - name: Commit version bump
         run: |
