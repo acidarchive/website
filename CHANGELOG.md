@@ -1,5 +1,5 @@
 # 🎛️ Acid Archive Changelog
-## [Latest]
+## [0.0.1-alpha.8] - 2025-02-27
 
 ### 🌀 Added
 
@@ -70,7 +70,7 @@
 - Init
 
 
-[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.7..HEAD
+[0.0.1-alpha.8]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.7..v0.0.1-alpha.8
 [0.0.1-alpha.7]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.6..v0.0.1-alpha.7
 [0.0.1-alpha.6]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.5..v0.0.1-alpha.6
 [0.0.1-alpha.5]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.4..v0.0.1-alpha.5
