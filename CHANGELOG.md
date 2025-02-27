@@ -1,6 +1,13 @@
 # 🎛️ Acid Archive Changelog
 ## [Latest]
 
+### ⚙️ Miscellaneous
+
+- General workflow
+
+
+## [0.0.1-alpha.14] - 2025-02-27
+
 ### 🔧 Fixed
 
 - Correct button
@@ -107,7 +114,8 @@
 - Init
 
 
-[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.13..HEAD
+[unreleased]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.14..HEAD
+[0.0.1-alpha.14]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.13..v0.0.1-alpha.14
 [0.0.1-alpha.13]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.12..v0.0.1-alpha.13
 [0.0.1-alpha.12]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.11..v0.0.1-alpha.12
 [0.0.1-alpha.11]: https://github.com/acidarchive/website/compare/v0.0.1-alpha.10..v0.0.1-alpha.11
